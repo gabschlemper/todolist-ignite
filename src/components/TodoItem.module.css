@@ -1,0 +1,30 @@
+.WrapperTasks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: var(--gray-500);
+  color: var(--gray-100);
+  margin-top: 24px;
+}
+
+.completed {
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+
+.task {
+  width: 100%;
+  padding: 0 12px;
+}
+
+.trash {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.trash:hover {
+  opacity: 0.5;
+}

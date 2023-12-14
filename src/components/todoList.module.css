@@ -1,0 +1,103 @@
+.wrapper {
+  max-width: 736px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: -27px;
+  height: 100vh;
+}
+
+.newTask {
+  display: flex;
+  gap: 8px;
+}
+
+.input {
+  height: 54px;
+  width: 100%;
+  background-color: var(--gray-500);
+  border: none;
+  color: var(--white);
+  padding: 8px 20px;
+  border-radius: 8px;
+}
+
+.input:focus {
+  outline: none;
+  border: 1px solid var(--white);
+}
+
+.button {
+  width: 90px;
+  background-color: var(--blue-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity;
+}
+
+.button:hover {
+  background-color: var(--blue);
+  transition: 0.5s;
+}
+
+.infoTasks {
+  margin-top: 64px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: 700;
+}
+
+.createdTasks {
+  color: var(--blue);
+}
+
+.completedTasks {
+  color: var(--purple);
+}
+
+.counter {
+  color: var(--gray-100);
+  padding: 6px 12px;
+  background-color: var(--gray-400);
+  border-radius: 100%;
+}
+
+.empty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 24px;
+  border-top: 1px solid var(--gray-300);
+  margin-top: 20px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.emptyText {
+  color: var(--gray-300);
+  margin-top: 24px;
+  text-align: center;
+  line-height: 24px;
+}
+
+.task {
+  width: 100%;
+  padding: 0 12px;
+}
